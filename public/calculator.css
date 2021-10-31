@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;;
+
+}
+
+
+.operation-container{
+  display: flex;
+  flex-direction: row;
+  background-color: #EFEFEF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.op{
+  width: 25%;
+  height:70px;
+  border: solid black 2px;
+}
+.number-container{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+
+  border-right: 1px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.number-rows{
+  display: flex;
+}
+.number{
+  width:33.3%;
+  height: 65px;
+  border: solid black 2px;
+
+}
+.clear{
+  background-color: grey;
+  color:white;
+}
+.whole-op-container{
+  display: flex;
+  flex-direction: row;
+  border-bottom:solid black 1px;
+  background-color: white;
+}
+.equalto{
+  width: 25%;
+  height: 16.25rem;
+  border: solid black 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF3F00;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.btn{
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+.btn:hover{
+  background-color: red;
+}
+.output{
+
+ text-align: right;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.ans{
+   text-align: right;
+   font-size: 1.5rem;
+   color: white;
+}
+.footer-icon{
+margin: 20px 10px;
+color: black;
+}
