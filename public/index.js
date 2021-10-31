@@ -1,6 +1,6 @@
 var a = 0;
 const getData = async (num) => {
-  const data = await fetch(`http://localhost:3000/calc/${num}`);
+  const data = await fetch(` https://simplecalc-node-module.herokuapp.com/${num}`);
   console.log(data);
   a = await data.json();
   console.log(a);
